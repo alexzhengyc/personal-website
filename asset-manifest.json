@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.02dd6df4.css",
+    "main.js": "/personal-website/static/js/main.008c293c.js",
+    "static/js/415.4d6acbeb.chunk.js": "/personal-website/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/personal-website/static/js/787.1ed0c42c.chunk.js",
+    "static/media/leaf.png": "/personal-website/static/media/leaf.ff2616f664c8c0ceab91.png",
+    "static/media/emotion.png": "/personal-website/static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/suicide.png": "/personal-website/static/media/suicide.9c86cd7138a398c45fa5.png",
+    "static/media/codeEditor.png": "/personal-website/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/blog.png": "/personal-website/static/media/blog.fb8ab7f271a937d5fc01.png",
+    "static/media/about.png": "/personal-website/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/resume.pdf": "/personal-website/static/media/resume.982cca4ec5f21f63151a.pdf",
+    "static/media/chatify.png": "/personal-website/static/media/chatify.7206044e0b5cdad44726.png",
+    "static/media/logo.png": "/personal-website/static/media/logo.499613ba835b986f7ff0.png",
+    "index.html": "/personal-website/index.html",
+    "main.02dd6df4.css.map": "/personal-website/static/css/main.02dd6df4.css.map",
+    "main.008c293c.js.map": "/personal-website/static/js/main.008c293c.js.map",
+    "415.4d6acbeb.chunk.js.map": "/personal-website/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/personal-website/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02dd6df4.css",
+    "static/js/main.008c293c.js"
+  ]
+}
