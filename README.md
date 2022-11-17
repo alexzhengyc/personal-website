@@ -1,14 +1,16 @@
 # A Modern and Concise Personal Website 
 
-![homepage](Images\homepage.png)
+![homepage](Images/homepage.png)
 
-![About](Images\About.png)
+![About](Images/About.png)
+### Visit this website
+www.alexzheng.io
 
 ### About this website
 
-- Mainly designed and developed by myself
-- Based on React  
-- Feel free to use 
+- Mainly designed and developed by myself ❤️
+- Based on React 
+- Feel free to use ✅
 - Thanks to *Soumyajit Behera*
 
 
@@ -28,4 +30,4 @@
 
 
 
-### If you like it, please star it!
+### If you like it, please star🌟 it!
