@@ -1,15 +1,15 @@
 # A Modern and Concise Personal Website 
 
-![homepage](C:\Users\AlexZheng\Desktop\homepage.png)
+![homepage](Images\homepage.png)
 
-![About](C:\Users\AlexZheng\Desktop\About.png)
+![About](Images\About.png)
 
 ### About this website
 
 - Mainly designed and developed by myself
 - Based on React  
 - Feel free to use 
-- Thanks to Soumyajit Behera
+- Thanks to *Soumyajit Behera*
 
 
 
@@ -28,4 +28,4 @@
 
 
 
-### If you like it, please star!
+### If you like it, please star it!
