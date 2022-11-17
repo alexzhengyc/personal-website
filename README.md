@@ -1,8 +1,8 @@
 # A Modern and Concise Personal Website 
 
-![homepage](Images\homepage.png)
+![homepage](Images/homepage.png)
 
-![About](Images\About.png)
+![About](Images/About.png)
 
 ### About this website
 
