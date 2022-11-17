@@ -10,7 +10,7 @@ www.alexzheng.io
 
 - Mainly designed and developed by myself ❤️
 - Based on React 
-- Feel free to use ☑️
+- Feel free to use ✅
 - Thanks to *Soumyajit Behera*
 
 
