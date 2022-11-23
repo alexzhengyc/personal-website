@@ -483,6 +483,12 @@ button:focus {
   padding-right: 25px !important;
   height: auto !important;
 }
+.project-card-image{
+  margin-left: auto;
+  margin-right: auto;
+  width: 20vw;
+  height: 15vw;
+}
 
 .project-card-view {
   box-shadow: 0 4px 5px 3px var(--sup-color) !important; 
@@ -495,9 +501,6 @@ button:focus {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px var(--imp-text-color) !important;
-}
-.project-button{
-  
 }
 
 .blog-card {

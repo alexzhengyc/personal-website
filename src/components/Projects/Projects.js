@@ -29,7 +29,7 @@ function Projects() {
             <ProjectCard
               imgPath={personal}
               isBlog={false}
-              title="personal website"
+              title="Personal Website"
               description="My personal website built with React"
               ghLink="https://github.com/AlexZheng-UCLA/personal-website"
               demoLink="https://alexzheng.io/"
