@@ -14,7 +14,7 @@ function About() {
       <Container>
 
         <h1 className="project-heading">
-          Who <strong className="purple">I am</strong>
+          <strong className="purple">Self-Learning List</strong>
         </h1>
         <Aboutcard />
 
