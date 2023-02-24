@@ -11,7 +11,7 @@ function AboutCard() {
     <Card className="about-card">
       <Card.Body>
           <p style={{ textAlign: "justify" }}>
-            Dradually mastering how to MoYu at CMU, I get myself some time to learn some new CS knowledge, with inner passion.\Although I've already been taking 5 course this semester lol🐶
+            Gradually mastering how to MoYu🐟 at CMU, I get myself some time to learn some new CS knowledge, with inner passion.\Although I've already been taking 5 course this semester lol🐶
           </p>
           <p style={{ textAlign: "justify" }}>
             DONE:
