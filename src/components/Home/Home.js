@@ -1,8 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Aboutcard from "./BioCard";
 
 import Particle from "../Particle";
 import Type from "./Type";
+
 
 import {
   AiFillGithub,
@@ -14,20 +16,24 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
-        <Particle />
-        <Container className="home-content">
-          <strong className="main-name"> Alex Zheng</strong>
-          <Type />
-        </Container>
+
+      <Container fluid className="about-section">
+      <Particle />
+      <Container>
+        <h1 className="project-heading">
+          <strong className="purple">Guoyao Li</strong>
+        </h1>
+        <Aboutcard />
+
       </Container>
+    </Container>
         
       <Container fluid className="home-about-section" id="about">      
         <Container className="home-about-social">
           <ul className="home-about-social-links">
             <li className="social-icons">
               <a
-                href="https://github.com/AlexZheng-UCLA/"
+                href="https://github.com/guoyaol/"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
@@ -35,7 +41,7 @@ function Home() {
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://twitter.com/alexzheng1017/"
                 target="_blank"
@@ -44,10 +50,10 @@ function Home() {
               >
                 <AiOutlineTwitter />
               </a>
-            </li>
+            </li> */}
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/alexzheng1017/"
+                href="https://www.linkedin.com/in/guoyaoli/"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
@@ -57,7 +63,7 @@ function Home() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/alexzheng_la/"
+                href="https://www.instagram.com/gylhimself/"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour home-social-icons"

@@ -18,17 +18,6 @@ function About() {
         </h1>
         <Aboutcard />
 
-        <h1 className="project-heading">
-          My <strong className="purple">Skills </strong>
-        </h1>
-        
-        <Techstack />
-
-        <h1 className="project-heading">
-          <strong className="purple">What</strong> I use
-        </h1>
-        <Toolstack />
-
       </Container>
     </Container>
   );

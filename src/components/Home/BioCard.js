@@ -11,13 +11,12 @@ function AboutCard() {
     <Card className="about-card">
       <Card.Body>
           <p style={{ textAlign: "justify" }}>
-
           I am currently a first-year MCDS (Master of Computational Data Science) student at the Language Technologies Institute, School of Computer Science at Carnegie Mellon University.
 Prior to CMU, I obtained my bachelor’s degree in Computer Science and Technology from ChuKochen Honors College, Zhejiang University in China. During my undergraduate studies, I was a member of the Mixed Class of 2022 and felt honored to work with Prof. Xin Liu at UC Davis on Machine Learning Privacy. I also interned at the Big Data AI Group at Intel, as a deep learning software intern.<br/><br/>
 
 With my experiences in machine learning and computer system, I grew interested in the intersection of these two fields. I am lucky to have to chance to work with Prof. Tianqi Chen at CMU. I am currently learning about Apache TVM, a pioneering machine learning compiler, and trying to make my contribution.
           </p>
-          <ul>
+          {/* <ul>
             <li className="about-activity">
               <GrRobot /> Learning newest tech -- AI, web3, robots
             </li>
@@ -35,7 +34,7 @@ With my experiences in machine learning and computer system, I grew interested i
           <p style={{ textAlign: "center"}}>
             <br/>
             <span className="quote">"We are meant to make a difference to the world!"</span>
-          </p>
+          </p> */}
           
       </Card.Body>
     </Card>
