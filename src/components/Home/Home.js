@@ -19,15 +19,12 @@ function Home() {
                 src={guoyaoLiImg}
                 alt="Guoyao Li"
                 className="img-fluid"
-                style={{ alignSelf: "right", marginBottom: "10px", transform: "scale(1)", }}
+                style={{ alignSelf: "center", }}
               />
             </Col>
             <Col>
               <h1 className="project-heading"
                 style={{
-                  position: "absolute",
-                  left: "700px",
-                  top: "200px",
                   transform: "scale(1.5)",
                 }}
               >
