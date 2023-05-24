@@ -20,20 +20,23 @@ import {
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px", paddingTop: "50px" }}>
-      <Col xs={3} md={2.5} className="tech-icons">
-        <FiDatabase/> <br/> Data Structure & <br/>Agorithms
-      </Col>
-      <Col xs={3} md={2.5} className="tech-icons">
-        <MdWebAsset/> <br/>Front-end Development
-      </Col>
-      <Col xs={3} md={2.5} className="tech-icons">
-        <AiOutlineDatabase/> <br/> Data Science & <br/> Signal Processing
-      </Col>
 
       <Col xs={3} md={2.5} className="tech-icons">
         <MdModelTraining/> <br/>Machine Learning & <br/> Deep Learning
       </Col>
-    
+
+      <Col xs={3} md={2.5} className="tech-icons">
+        <MdWebAsset/> <br/>Full-stack Development
+      </Col>
+
+      <Col xs={3} md={2.5} className="tech-icons">
+        <FiDatabase/> <br/> Data Structure & <br/>Agorithms
+      </Col>
+
+      <Col xs={3} md={2.5} className="tech-icons">
+        <AiOutlineDatabase/> <br/> Data Science & <br/> Signal Processing
+      </Col>
+
       <Col xs={3} md={2.5} className="tech-icons">
         <AiOutlineRobot/> <br/>Planning & Control of Robots
       </Col>

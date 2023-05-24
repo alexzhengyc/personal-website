@@ -1,6 +1,6 @@
 # A Modern and Concise Personal Website 
 
-![homepage](Images/homepage.png)
+![homepage](Images/homepage.gif)
 
 ![About](Images/About.png)
 ### Visit this website

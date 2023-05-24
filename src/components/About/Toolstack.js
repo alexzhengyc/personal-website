@@ -6,21 +6,32 @@ import {
   SiTensorflow,
   SiPytorch,
   SiNumpy,
+  SiReact,
+  SiMongodb,
   SiPandas,
+  SiRedux,
   SiVisualstudio,
   SiUbuntu,
   SiPycharm,
-
+  SiAmazonaws,
+  SiGooglecolab,
 } from "react-icons/si";
 
 import {
   DiPython,
-  DiJavascript1
+  DiJavascript1,
+  DiHtml5,
+  DiTerminal,
 } from "react-icons/di";
 
 import {
   CgCPlusPlus
 } from "react-icons/cg";
+
+import {
+  FaFlask,
+  FaHtml5,
+} from "react-icons/fa";
 
 function Toolstack() {
   return (
@@ -37,14 +48,23 @@ function Toolstack() {
         <Col xs={2} md={1} className="tech-icons">
           <CgCPlusPlus />
         </Col>
+
         <Col xs={2} md={1} className="tech-icons">
           <SiJava />
         </Col>
         <Col xs={2} md={1} className="tech-icons">
           <DiJavascript1 />
         </Col>
+        <Col xs={2} md={1} className="tech-icons">
+          <DiHtml5 />
+        </Col>
+        <Col xs={2} md={1} className="tech-icons">
+          <SiLinux />
+        </Col>
         <Col xs={0} md={1} className="software-text">
         </Col>
+
+
 
       </Row>
       
@@ -60,10 +80,16 @@ function Toolstack() {
           <SiTensorflow />
         </Col>
         <Col xs={2} md={1} className="tech-icons">
-          <SiNumpy />
+          <SiReact />
         </Col>
         <Col xs={2} md={1} className="tech-icons">
-          <SiPandas />
+          <FaFlask />
+        </Col>
+        <Col xs={2} md={1} className="tech-icons">
+          <SiRedux />
+        </Col>
+        <Col xs={2} md={1} className="tech-icons">
+          <SiMongodb />
         </Col>
         <Col xs={0} md={1} className="software-text">
         </Col>
@@ -83,7 +109,13 @@ function Toolstack() {
           <SiUbuntu />
         </Col>
         <Col xs={2} md={1} className="tech-icons">
-          ROS
+          <SiAmazonaws />
+        </Col>
+        <Col xs={2} md={1} className="tech-icons">
+          <SiGooglecolab />
+        </Col>
+        <Col xs={2} md={1} className="tech-icons">
+          <DiTerminal />
         </Col>
         <Col xs={0} md={1} className="software-text">
         </Col>

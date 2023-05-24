@@ -99,7 +99,7 @@ button:focus {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
-  font-size: 1.2rem !important;
+  font-size: 1.6rem !important;
 }
 
 .navbar-toggler {
@@ -302,25 +302,29 @@ button:focus {
 }
 
 .main-name {
-  font-size: 8vw;
+  font-size: 10em;
   color: var(--imp-text-color);
+}
+@media (max-width: 767px) {
+  .main-name {
+    font-size: 5em;  /* Adjust as needed */
+  }
 }
 
 .Typewriter__wrapper {
-  font-size: 3vw !important;
+  font-size: 5em !important;
   color: var(--imp-text-color) !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
-  font-size: 3vw !important;
+  font-size: 5em !important;
   color: var(--sup-color) !important;
 }
 
 @media (max-width: 767px) {
   .Typewriter__wrapper {
-    font-size: 1.4em !important;
-    font-weight: 500 !important;
-    position: absolute !important;
+    font-size: 2.5em !important;
+    /* font-weight: 500 !important; */
   }
   .Typewriter__cursor {
     display: none !important;
@@ -377,11 +381,8 @@ button:focus {
 .home-social-icons {
   position: relative !important;
   display: inline-block !important;
-  width: 6.2vh !important;
-  height: 6.2vh !important;
   text-align: center !important;
   font-size: 3.8vh !important;
-
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -415,6 +416,36 @@ button:focus {
   display: inline-block !important;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+/* Responsive Sizes */
+
+@media screen and (max-width: 480px) {
+  .home-social-icons {
+    width: 20vw !important;
+    height: 20vw !important;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .home-social-icons {
+    width: 12vw !important;
+    height: 12vw !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .home-social-icons {
+    width: 8vw !important;
+    height: 8vw !important;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .home-social-icons {
+    width: 6.2vh !important;
+    height: 6.2vh !important;
+  }
 }
 
 .icon-colour {
@@ -734,7 +765,7 @@ button:focus {
 
 .like-item {
   padding-top: 10px !important;
-  font-size: 3em !important;
+  font-size: 1em !important;
   font-family: sans-serif !important;
 }
 
@@ -768,22 +799,23 @@ button:focus {
 }
 
 .fork-btn {
-  font-size: 1.1em !important;
-  padding-top: 10px !important;
+  font-size: 1em !important;
+  padding-top: 8px !important;
 }
 
 .fork-btn-inner {
-  line-height: 1.4em !important;
-  background-color: #934cce5e !important;
-  padding: 0.25rem 1.1rem !important;
+  line-height: 0.8em !important;
+  background-color: var(--gen-bg-color) !important;
+  padding: 0.4rem 1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
+  border: none !important;
 }
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: var(--sup-color) !important;
+  border-color: var(--imp-text-color) !important;
 }
 .fork-btn-inner::after {
   display: none !important;
